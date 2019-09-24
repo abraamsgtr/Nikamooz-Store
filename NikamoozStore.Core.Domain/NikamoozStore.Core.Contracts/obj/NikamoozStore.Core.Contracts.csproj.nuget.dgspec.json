@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/NikamoozStore.Core.Contracts.csproj": {}
+  },
+  "projects": {
+    "/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/NikamoozStore.Core.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/NikamoozStore.Core.Contracts.csproj",
+        "projectName": "NikamoozStore.Core.Contracts",
+        "projectPath": "/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/NikamoozStore.Core.Contracts.csproj",
+        "packagesPath": "/Users/mohammad141/.nuget/packages/",
+        "outputPath": "/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mohammad141/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Domain.csproj": {
+                "projectPath": "/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Domain.csproj",
+        "projectName": "NikamoozStore.Core.Domain",
+        "projectPath": "/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Domain.csproj",
+        "packagesPath": "/Users/mohammad141/.nuget/packages/",
+        "outputPath": "/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mohammad141/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

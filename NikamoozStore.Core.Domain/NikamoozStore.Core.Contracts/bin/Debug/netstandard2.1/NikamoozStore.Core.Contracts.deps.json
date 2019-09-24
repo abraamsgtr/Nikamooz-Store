@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "NikamoozStore.Core.Contracts/1.0.0": {
+        "dependencies": {
+          "NikamoozStore.Core.Domain": "1.0.0"
+        },
+        "runtime": {
+          "NikamoozStore.Core.Contracts.dll": {}
+        }
+      },
+      "NikamoozStore.Core.Domain/1.0.0": {
+        "runtime": {
+          "NikamoozStore.Core.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NikamoozStore.Core.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NikamoozStore.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

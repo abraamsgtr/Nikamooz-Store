@@ -1,0 +1,11 @@
+/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/bin/Debug/netstandard2.1/NikamoozStore.Core.Contracts.deps.json
+/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/bin/Debug/netstandard2.1/NikamoozStore.Core.Contracts.dll
+/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/bin/Debug/netstandard2.1/NikamoozStore.Core.Contracts.pdb
+/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/bin/Debug/netstandard2.1/NikamoozStore.Core.Domain.dll
+/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/bin/Debug/netstandard2.1/NikamoozStore.Core.Domain.pdb
+/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/obj/Debug/netstandard2.1/NikamoozStore.Core.Contracts.csprojAssemblyReference.cache
+/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/obj/Debug/netstandard2.1/NikamoozStore.Core.Contracts.AssemblyInfoInputs.cache
+/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/obj/Debug/netstandard2.1/NikamoozStore.Core.Contracts.AssemblyInfo.cs
+/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/obj/Debug/netstandard2.1/NikamoozStore.Core.Contracts.csproj.CopyComplete
+/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/obj/Debug/netstandard2.1/NikamoozStore.Core.Contracts.dll
+/Volumes/LaCie/applications/dotNetApps/Nikamooz Store/NikamoozStore/NikamoozStore.Core.Domain/NikamoozStore.Core.Contracts/obj/Debug/netstandard2.1/NikamoozStore.Core.Contracts.pdb

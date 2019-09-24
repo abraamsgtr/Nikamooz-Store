@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NikamoozStore.Core.Domain\NikamoozStore.Core.Contracts\NikamoozStore.Core.Contracts.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\NikamoozStore.Core.Domain\NikamoozStore.Core.Domain.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\NikamoozStore.Infrustructures.Dal\NikamoozStore.Infrustructures.Dal.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\NikamoozStore.Services.ApplicationServices\NikamoozStore.Services.ApplicationServices.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Pages\_ViewImports.cshtml" />
+    <Content Remove="Pages\_ViewStart.cshtml" />
+    <Content Remove="Pages\Error.cshtml" />
+    <Content Remove="Pages\Index.cshtml" />
+    <Content Remove="Pages\Privacy.cshtml" />
+    <Content Remove="Pages\Shared\_Layout.cshtml" />
+    <Content Remove="Pages\Shared\_ValidationScriptsPartial.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Pages\Error.cshtml.cs" />
+    <Compile Remove="Pages\Index.cshtml.cs" />
+    <Compile Remove="Pages\Privacy.cshtml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Views\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\Shared\" />
+  </ItemGroup>
+</Project>
