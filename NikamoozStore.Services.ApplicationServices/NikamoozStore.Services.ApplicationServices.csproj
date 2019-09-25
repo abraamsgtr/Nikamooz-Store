@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NikamoozStore.Core.Domain\NikamoozStore.Core.Contracts\NikamoozStore.Core.Contracts.csproj" />
     <ProjectReference Include="..\NikamoozStore.Core.Domain\NikamoozStore.Core.Domain.csproj" />
+    <ProjectReference Include="..\NikamoozStore.Core.Domain\NikamoozStore.Core.Contracts\NikamoozStore.Core.Contracts.csproj" />
   </ItemGroup>
 </Project>

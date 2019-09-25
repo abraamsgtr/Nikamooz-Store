@@ -7,4 +7,10 @@
   <ItemGroup>
     <ProjectReference Include="..\NikamoozStore.Core.Domain.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Productss\" />
+  </ItemGroup>
 </Project>

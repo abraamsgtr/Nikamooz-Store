@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NikamoozStore.Core.Domain\NikamoozStore.Core.Contracts\NikamoozStore.Core.Contracts.csproj" />
     <ProjectReference Include="..\NikamoozStore.Core.Domain\NikamoozStore.Core.Domain.csproj" />
+    <ProjectReference Include="..\NikamoozStore.Core.Domain\NikamoozStore.Core.Contracts\NikamoozStore.Core.Contracts.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
@@ -14,5 +14,8 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Products\" />
   </ItemGroup>
 </Project>

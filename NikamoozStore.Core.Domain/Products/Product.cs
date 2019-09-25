@@ -1,5 +1,7 @@
 ﻿using System;
-namespace NikamoozStore.Core.Domain.Categories
+using NikamoozStore.Core.Domain.Categories;
+
+namespace NikamoozStore.Core.Domain.Products
 {
     public class Product
     {

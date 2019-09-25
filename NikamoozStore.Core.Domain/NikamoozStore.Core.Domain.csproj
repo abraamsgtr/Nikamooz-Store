@@ -8,4 +8,26 @@
     <Folder Include="Products\" />
     <Folder Include="Categories\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="NikamoozStore.Core.Contracts\bin\Debug\netstandard2.1\NikamoozStore.Core.Contracts.pdb" />
+    <None Remove="NikamoozStore.Core.Contracts\bin\Debug\netstandard2.1\NikamoozStore.Core.Domain.dll" />
+    <None Remove="NikamoozStore.Core.Contracts\bin\Debug\netstandard2.1\NikamoozStore.Core.Domain.pdb" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\NikamoozStore.Core.Contracts.csproj.nuget.cache" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\NikamoozStore.Core.Contracts.csproj.nuget.dgspec.json" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\NikamoozStore.Core.Contracts.csproj.nuget.g.props" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\NikamoozStore.Core.Contracts.csproj.nuget.g.targets" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\project.assets.json" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\Debug\netstandard2.1\NikamoozStore.Core.Contracts.AssemblyInfoInputs.cache" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\Debug\netstandard2.1\NikamoozStore.Core.Contracts.assets.cache" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\Debug\netstandard2.1\NikamoozStore.Core.Contracts.csproj.CopyComplete" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\Debug\netstandard2.1\NikamoozStore.Core.Contracts.csproj.FileListAbsolute.txt" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\Debug\netstandard2.1\NikamoozStore.Core.Contracts.csprojAssemblyReference.cache" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\Debug\netstandard2.1\NikamoozStore.Core.Contracts.dll" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\Debug\netstandard2.1\NikamoozStore.Core.Contracts.pdb" />
+    <None Remove="NikamoozStore.Core.Contracts\obj\Debug\netstandard2.1\NikamoozStore.Core.Contracts.assets.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="NikamoozStore.Core.Contracts\Class1.cs" />
+    <Compile Remove="NikamoozStore.Core.Contracts\Productss\ProductRepository.cs" />
+  </ItemGroup>
 </Project>

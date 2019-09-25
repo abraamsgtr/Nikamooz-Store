@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NikamoozStore.Infrustructures.Dal.Products;
+using NikamoozStore.Core.Contracts.Productss;
 
 namespace NikamoozStore.EndPoints.WebUI
 {
@@ -24,6 +26,7 @@ namespace NikamoozStore.EndPoints.WebUI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc(option => option.EnableEndpointRouting = false);
+            services.AddScoped<ProductRepository, FakeProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,7 +52,9 @@ namespace NikamoozStore.EndPoints.WebUI
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
-            app.UseMvc();
+            app.UseMvc(routes =>
+                routes.MapRoute(name: null, template: "{controller=product}/{action=list}/{id?}")
+            );
 
             //app.UseEndpoints(endpoints =>
             //{
