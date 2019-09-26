@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NikamoozStore.Infrustructures.Dal.Products;
 using NikamoozStore.Core.Contracts.Productss;
+using Microsoft.EntityFrameworkCore;
+using NikamoozStore.Infrustructures.Dal.Common;
 
 namespace NikamoozStore.EndPoints.WebUI
 {
@@ -26,7 +28,8 @@ namespace NikamoozStore.EndPoints.WebUI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc(option => option.EnableEndpointRouting = false);
-            services.AddScoped<ProductRepository, FakeProductRepository>();
+            services.AddDbContext<NikamoozStoreContext>(options => { options.UseSqlServer(Configuration.GetConnectionString("storDb")); });
+            services.AddScoped<ProductRepository, EfProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

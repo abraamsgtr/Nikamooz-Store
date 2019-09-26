@@ -17,5 +17,29 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Products\" />
+    <Folder Include="Common\" />
+    <Folder Include="Categories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20190925204023_init.cs" />
+    <Compile Remove="Migrations\20190925204023_init.Designer.cs" />
+    <Compile Remove="Migrations\20190925212318_init1.cs" />
+    <Compile Remove="Migrations\20190925212318_init1.Designer.cs" />
+    <Compile Remove="Migrations\20190925213636_init1.cs" />
+    <Compile Remove="Migrations\20190925213636_init1.Designer.cs" />
+    <Compile Remove="Migrations\20190925214305_init.cs" />
+    <Compile Remove="Migrations\20190925214305_init.Designer.cs" />
+    <Compile Remove="Migrations\20190925214512_init.Designer.cs" />
+    <Compile Remove="Migrations\20190925214512_init.cs" />
+    <Compile Remove="Migrations\20190925214628_init.cs" />
+    <Compile Remove="Migrations\20190925214628_init.Designer.cs" />
+    <Compile Remove="Migrations\NikamoozStoreContextModelSnapshot.cs" />
+    <Compile Remove="Migrations\20190926205038_init.cs" />
+    <Compile Remove="Migrations\20190926205038_init.Designer.cs" />
+    <Compile Remove="Migrations\NikamoozStoreContextModelSnapshot.cs" />
+    <Compile Remove="Migrations\20190926211149_init2.Designer.cs" />
+    <Compile Remove="Migrations\20190926211149_init2.cs" />
+    <Compile Remove="Migrations\20190926211320_init.cs" />
+    <Compile Remove="Migrations\20190926211320_init.Designer.cs" />
   </ItemGroup>
 </Project>
