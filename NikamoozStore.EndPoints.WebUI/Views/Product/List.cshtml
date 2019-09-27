@@ -69,7 +69,7 @@
           </div>
         </div>
       </div>
-      <div class="ps-section--features-product ps-section masonry-root pt-100 pb-100 ps-container">
+      @*<div class="ps-section--features-product ps-section masonry-root pt-100 pb-100 ps-container"  page-model="Model.PagingInfo">
           <div class="ps-section__header mb-50">
           @for (int i = 1; i <= Model.PagingInfo.TotalPages; i++)
           {
@@ -81,10 +81,12 @@
               
           }
               </div>
-      </div>
-      <div class="ps-section--offer">
-        <div class="ps-column"><a class="ps-offer" href="product-listing.html"><img src="images/banner/home-banner-1.png" alt=""></a></div>
-        <div class="ps-column"><a class="ps-offer" href="product-listing.html"><img src="images/banner/home-banner-2.png" alt=""></a></div>
+      </div>*@
+      <div page-model="@Model.PagingInfo" page-action="List" page-classes-enabled="true"
+           page-class="btn" page-class-normal="btn-secondary"
+           page-class-selected="btn-primary"
+           class="col-md-4 text-center">
+
       </div>
       <div class="ps-section ps-section--top-sales ps-owl-root pt-80 pb-80">
         <div class="ps-container">
