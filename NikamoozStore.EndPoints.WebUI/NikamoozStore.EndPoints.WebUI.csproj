@@ -89,5 +89,9 @@
     <Folder Include="Models\Products\" />
     <Folder Include="Models\Commons\" />
     <Folder Include="TagHelpers\" />
+    <Folder Include="Components\" />
+    <Folder Include="Views\Categories\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\NavigationMenu\" />
   </ItemGroup>
 </Project>
