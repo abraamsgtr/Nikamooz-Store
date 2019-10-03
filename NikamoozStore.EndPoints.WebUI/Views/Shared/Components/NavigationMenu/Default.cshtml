@@ -15,7 +15,7 @@
                             @foreach (var item in Model.Categories)
                               {
                                 var className = item.CategoryName == Model.CurrentCategory ? "text-danger" : "";
-                                <li><a asp-action="List" asp-controller="Product" asp-route-category="@item.CategoryName" class="className">@item.CategoryName</a></li>
+                                <li><a asp-action="List" asp-controller="Product" asp-route-category="@item.CategoryName" asp-route-pageNumber="1" class="className">@item.CategoryName</a></li>
                               }
                           </ul>
                         </div>
